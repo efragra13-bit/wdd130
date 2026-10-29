@@ -34,13 +34,13 @@ aside {
     margin: 2rem;
     border: 2px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: aqua;
-    color: azure;
+    background-color: lightgray;
+    color: black;
     text-align: center;
 }
 
 aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
