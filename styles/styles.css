@@ -22,5 +22,38 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+main {
+    max-width: 500px;
+}
+
+aside {
+    width: 10rem;
+    margin: 2rem;
+    border: 2px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: aqua;
+    color: azure;
+    text-align: center;
+}
+
+aside-image {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 4px solid #555;
+    text-align: center;
 }
