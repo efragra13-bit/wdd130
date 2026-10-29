@@ -30,7 +30,7 @@ main {
 }
 
 aside {
-    width: 10rem;
+    width: 20rem;
     margin: 2rem;
     border: 2px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
@@ -40,7 +40,7 @@ aside {
 }
 
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
