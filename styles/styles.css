@@ -1,5 +1,13 @@
+:root {
+    --heading-background-color: #f06;
+    --heading-text-color: #333;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -10,7 +18,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-text-color);
 }
 
 img {
@@ -33,7 +41,7 @@ aside {
     width: 20rem;
     margin: 2rem;
     border: 2px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+    padding: var(--padding);
     background-color: lightgray;
     color: black;
     text-align: center;
