@@ -111,7 +111,7 @@ h1 {
 h2 {
     text-align: center;
     background: none;
-    color: var(--primary-color);
+    color: #000;
     background-color: var(--secondary-color);
     margin: 0 0 0.5rem 0;
     padding: 0;
@@ -134,7 +134,7 @@ header img {
 header nav ul {
     display: flex;
     justify-content: flex-end;
-    life-style: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     gap: 0;
