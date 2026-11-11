@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2rem;
+    color: #666;
+    background: #eee;
+}
+
+header {
+    margin: 1rem;
+    width: 110%;
+    max-width: 700px;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 1rem;
+    color: navy;
+    text-align: baseline;
+}
+
+form {
+    width: auto;
+    margin: 0cap;
+    padding: 0em;
+    border: 1px solid;
+    border-radius: 1.5rem;
+    background-color: aqua;
+    display: flex;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    font-size: medium;
+    margin: auto;
+    margin-top: 0%;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #444;
+    color: #ccc;
+    border: auto;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+    background-color: #999;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 100%;
+    max-width: 7000px;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #777;
+    border-top: 1px solid #fff;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.label-wide {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.label-narrow {
+    grid-template-columns: 1fr 2fr;
+}
