@@ -243,10 +243,16 @@ footer .socialmedia {
 
 .contact-form button {
     background: #036660;
-    color: #ccc;
+    color: #fff;
     padding: 0.7rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
+}
+
+.map iframe {
+    border: 0;
+    width: 100%;
+    height: 450px;
 }
