@@ -276,3 +276,26 @@ footer .socialmedia {
 .contact-info {
     text-align: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 1rem;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: flex-start;
+    width: 100%;
+}
