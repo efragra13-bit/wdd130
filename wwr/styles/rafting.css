@@ -299,3 +299,46 @@ label {
     align-items: flex-start;
     width: 100%;
 }
+
+.trips1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.trips1 h1,
+.trips1 h2,
+.trips1 table {
+    grid-column: 1 / -1;
+}
+
+.trips1 section img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.trips1 section {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trips1 figure {
+    margin: 0;
+    width: 100%;
+}
+
+.trips1 {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.trips1 th,
+.trips1 td {
+    border: 1px solid #000;
+    padding: 0.5rem;
+}
