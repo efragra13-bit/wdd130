@@ -116,10 +116,14 @@ article {
 h2 {
     text-align: center;
     background: none;
-    color: #000;
     background-color: var(--secondary-color);
     margin: 0 0 0.5rem 0;
     padding: 0;
+}
+
+h2 a {
+    color: #000060;
+    text-decoration: none;
 }
 
 header img {
@@ -298,6 +302,11 @@ label {
     gap: 0.3rem;
     align-items: flex-start;
     width: 100%;
+}
+
+form label {
+    color: #000;
+    font-weight: bold;
 }
 
 .home-grid {
